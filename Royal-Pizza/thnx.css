@@ -1,0 +1,16 @@
+* {
+  margin: 0%;
+  padding: 0ch;
+}
+body {
+  background-color: aliceblue;
+}
+h1 {
+  text-align: center;
+  color: brown;
+}
+main {
+  text-align: center;
+  font-size: medium;
+  font-weight: 500;
+}
