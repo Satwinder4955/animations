@@ -1,0 +1,99 @@
+li,
+a {
+  text-decoration: none;
+  display: inline;
+  padding: 20px;
+  cursor: pointer;
+  color: rgb(97, 208, 223);
+  text-transform: uppercase;
+}
+a:hover {
+  color: rgb(16, 95, 233);
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 120px;
+}
+h4 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.image {
+  opacity: 0.6;
+  position: relative;
+}
+.front {
+  position: absolute;
+  top: 0px;
+}
+.front header {
+  position: absolute;
+  top: 0px;
+  padding-left: 60%;
+}
+.front h1 {
+  font-weight: 900;
+}
+/* image {
+  background: url(screen.jpg) no-repeat;
+  width: 1517px;
+  height: 460px;
+} */
+button {
+  width: 180px;
+  color: #000;
+  font-size: 12px;
+  padding: 12px 0;
+  background: rgb(220, 53, 53);
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+}
+section {
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  opacity: 9;
+  position: relative;
+}
+
+.card {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+.card1 {
+  background-image: url(steam.webp);
+}
+.card2 {
+  background-image: url(po.jpg);
+}
+.card3 {
+  background-image: url(in.jpg);
+}
+.card4 {
+  background-image: url(stea.jpg);
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+h5 {
+  color: antiquewhite;
+  text-shadow: 0 0 5px;
+}
+.card p {
+  text-shadow: 0 0 15px #000;
+  font-size: 8px;
+}
